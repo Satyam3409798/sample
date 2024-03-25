@@ -1,0 +1,47 @@
+#upper{
+    height: 90px;
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 2em;
+    max-width: 28rem;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-top: -50px;
+    position: relative;
+    left: 7em;
+}
+.contact{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    display: inline-block;
+    right: 300px;
+    top: 30px;
+    height: 2.5em;
+    width: 8em;
+    border-radius: 25px;
+    border: 1px solid #1f85f1;
+    color: #000000;
+    font-size: x-large;
+    background-color: #ffffff;
+    font-weight: 300;
+}
+.contact:hover{
+    background-color: #000000;
+    color: #ff69b4;
+    cursor: pointer;
+}
+.logo1{
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+}
